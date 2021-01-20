@@ -1,4 +1,5 @@
 import FormComponent from "../organisms/form";
+import ModalComponent from "../organisms/modal";
 import { Container } from 'reactstrap';
 import logo from '../../logo.svg';
 
@@ -11,6 +12,7 @@ const Home = (props) => {
                     <img src={logo} className="App-logo" alt="logo" />
                     <h2>{'Welcome to React'}</h2>
                     <FormComponent />
+                    <ModalComponent />
                 </div>
             </div>
         </Container>
